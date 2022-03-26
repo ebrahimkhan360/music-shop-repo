@@ -32,7 +32,14 @@ const Shop = () => {
             <div className='card-container'>
                 <Card card={card}></Card>
             </div>
+            <div>
+                <h2></h2>
+                <p></p>
+                <h2></h2>
+                <p></p>
+            </div>
         </div>
+        
     );
 };
 
