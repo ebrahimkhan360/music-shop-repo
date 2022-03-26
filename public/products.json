@@ -2,55 +2,55 @@
     {
       "id": "623df5d42a12b025405ae447",
       "price": "$380",
-      "picture": "https://www.collinsdictionary.com/images/full/harmonium_104123702_1000.jpg",
+      "img": "https://www.collinsdictionary.com/images/full/harmonium_104123702_1000.jpg",
       "name": "Harmonium"
     },
     {
       "id": "623df5d43f49f63bcc69c012",
       "price": "$350",
-      "picture": "https://kaaynamusicals.com/wp-content/uploads/2020/07/main.jpg",
+      "img": "https://kaaynamusicals.com/wp-content/uploads/2020/07/main.jpg",
       "name": "Dhol"
     },
     {
       "id": "623df5d44b1e30188718d349",
       "price": "$110",
-      "picture": "https://m.media-amazon.com/images/I/813oDnJEgeL._AC_SL1500_.jpg",
+      "img": "https://m.media-amazon.com/images/I/813oDnJEgeL._AC_SL1500_.jpg",
       "name": "violin"
     },
     {
       "id": "623df5d4bbc15bae37587f12",
       "price": "$96",
-      "picture": "https://4.imimg.com/data4/UN/VJ/MY-28179751/bamboo-flute-500x500.jpg",
+      "img": "https://4.imimg.com/data4/UN/VJ/MY-28179751/bamboo-flute-500x500.jpg",
       "name": "Bamboo Flute"
     },
     {
       "id": "623df5d447edca4194e81c6f",
       "price": "$3,250",
-      "picture": "https://5.imimg.com/data5/OM/GP/MY-5779806/alesis-nitro-electronic-drum-set-500x500.jpg",
+      "img": "https://5.imimg.com/data5/OM/GP/MY-5779806/alesis-nitro-electronic-drum-set-500x500.jpg",
       "name": "Electronic Drum"
     },
     {
       "id": "623df5d4e17537648fa41a2d",
       "price": "$567",
-      "picture": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/154486/2337743_800.jpg",
+      "img": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/154486/2337743_800.jpg",
       "name": "Piano"
     },
     {
       "id": "623df5d4967dc271519cbd8c",
       "price": "$803",
-      "picture": "https://d1aeri3ty3izns.cloudfront.net/media/23/235459/1200/preview_4.jpg",
+      "img": "https://d1aeri3ty3izns.cloudfront.net/media/23/235459/1200/preview_4.jpg",
       "name": "Electric Guitar"
     },
     {
       "id": "623df5d4e1492777ea4e2ba5",
       "price": "$378",
-      "picture": "https://www.collinsdictionary.com/images/full/guitar_129991187.jpg",
+      "img": "https://www.collinsdictionary.com/images/full/guitar_129991187.jpg",
       "name": "Guitar"
     },
     {
       "id": "623df5d48fe6952a08306b93",
       "price": "$26",
-      "picture": "https://i1.sndcdn.com/artworks-000059260266-n2rniq-t500x500.jpg",
+      "img": "https://i1.sndcdn.com/artworks-000059260266-n2rniq-t500x500.jpg",
       "name": "Aktra"
     }
   ]

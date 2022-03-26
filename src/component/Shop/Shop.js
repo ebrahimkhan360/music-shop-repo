@@ -1,19 +1,39 @@
-import React from 'react';
-import logo from '../../imgas/logo.svg'
-import './Header.css'
-const Header = () => {
+import React, { useEffect, useState } from 'react';
+import Card from '../Card/Card';
+import Product from '../Product/Product';
+import './Shop.css'
+
+const Shop = () => {
+    const [products, setProducts] = useState([]);
+    const [card, setCard] = useState([]);
+
+
+    useEffect(() => {
+        fetch('products.json')
+            .then(res => res.json())
+            .then(data => setProducts(data))
+    }, [])
+
+    const addToCardHandle = (product) => {
+        const newCard = [...card, product];
+        setCard(newCard);
+    }
     return (
-        <nav className='header'>
-            <img src={logo} alt="" />
-            <h3>BIKER SHOPPING</h3>
-            <div>
-                <a href="/shop">Shop</a>
-                <a href="/orders">Orders</a>
-                <a href="/inventory">Inventory</a>
-                <a href="/about">About</a>
+        <div className='shop-container'>
+            <div className='products-container'>
+                {
+                    products.map(product => <Product
+                        key={product.id}
+                        product={product}
+                        addToCardHandle={addToCardHandle}
+                    ></Product>)
+                }
             </div>
-        </nav>
+            <div className='card-container'>
+                <Card card={card}></Card>
+            </div>
+        </div>
     );
 };
 
-export default Header;
+export default Shop;
