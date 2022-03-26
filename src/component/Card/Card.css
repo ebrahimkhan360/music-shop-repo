@@ -3,3 +3,17 @@
     top: 0;
     padding: 30px 23px;
 }
+.choose-item button{
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #9c8e8e5e;
+    font-size: 20px;
+}
+.choose-item button:hover{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border-radius: 3px;
+}

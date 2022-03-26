@@ -6,6 +6,10 @@ const Card = ({ card }) => {
         <div className='card'>
             <h4>Selected item</h4>
             <p>item: {card.length}</p>
+            <div className='choose-item'>
+            <button>Choose</button> <br/>
+            <button>Remove</button>
+            </div>
         </div>
     );
 };
